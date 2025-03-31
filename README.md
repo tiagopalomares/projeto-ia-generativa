@@ -70,9 +70,13 @@ Os textos extraídos aparecerão na pasta output/.
 ## 📸 Prints do Processo
 
 🔹 Imagem de entrada:
-
+![Imagem ex 1](./input/img5.png)
+![Imagem ex 2](./input/img8.jpeg)
 
 🔹 Texto extraído:
+
+![Print da saída](./prints/print1.png)
+![Print da saída](./prints/print2.png)
 
 Este é um exemplo de texto extraído de uma imagem.
 
