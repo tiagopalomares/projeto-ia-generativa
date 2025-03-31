@@ -1,23 +1,32 @@
 
 # Projeto de Reconhecimento de Texto com IA
 
-Este projeto utiliza OCR (Reconhecimento Óptico de Caracteres) para extrair textos de imagens. Foi desenvolvido como parte do Bootcamp na DIO, explorando conceitos de IA Generativa e processamento de imagens.
+Este projeto utiliza OCR (Reconhecimento Óptico de Caracteres) para extrair textos de imagens. O objetivo é processar imagens e identificar qualquer texto presente nelas, transformando-o em formato digital.
+Foi desenvolvido como parte do Bootcamp na DIO, explorando conceitos de IA Generativa e processamento de imagens.
 
 
 ## 🚀 Como Funciona
 
-O usuário coloca imagens na pasta inputs/.
+O usuário coloca imagens que tenham texto nela na pasta inputs/.
 
 O script em Python processa as imagens e extrai os textos.
 
 Os textos extraídos são salvos na pasta output/.
+
+
 ## 🛠️ Tecnologias Utilizadas
 
-Python
+Python 3
 
-Pytesseract (Biblioteca de OCR)
+Tesseract OCR
 
-Pillow (Manipulação de imagens)
+Pillow (PIL) (Manipulação de imagens)
+
+OpenCV
+
+pytesseract (Biblioteca de OCR)
+
+
 ## 📌 Como Rodar o Projeto
 
 Clone o repositório:
@@ -25,17 +34,39 @@ Clone o repositório:
 git clone https://github.com/seu-usuario/Projeto-IA-Generativa.git
 cd Projeto-IA-Generativa
 
-Instale as dependências:
+Criar e Ativar o Ambiente Virtual
 
-pip install pytesseract pillow
+python -m venv venv
+source venv/bin/activate  # Para Linux/Mac
+venv\Scripts\activate  # Para Windows
+
+Instalar Dependências
+
+pip install -r requirements.txt
+
+Instalar o Tesseract OCR
+
+Linux (Ubuntu/Debian):
+
+sudo apt install tesseract-ocr
+
+Windows:
+
+Baixe e instale o Tesseract OCR aqui
+
+Adicione o caminho do executável ao PATH do sistema
 
 Adicione imagens na pasta inputs/.
 
-Execute o script:
 
-python script.py
+ Executar o Código
+
+python main.py
+
 
 Os textos extraídos aparecerão na pasta output/.
+
+
 ## 📸 Prints do Processo
 
 🔹 Imagem de entrada:
@@ -44,6 +75,8 @@ Os textos extraídos aparecerão na pasta output/.
 🔹 Texto extraído:
 
 Este é um exemplo de texto extraído de uma imagem.
+
+
 ## 📚 Aprendizados e Insights
 
 O OCR funciona melhor com imagens de alta qualidade.
