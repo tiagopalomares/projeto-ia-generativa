@@ -4,6 +4,18 @@
 Este projeto utiliza OCR (Reconhecimento Óptico de Caracteres) para extrair textos de imagens. O objetivo é processar imagens e identificar qualquer texto presente nelas, transformando-o em formato digital.
 Foi desenvolvido como parte do Bootcamp na DIO, explorando conceitos de IA Generativa e processamento de imagens.
 
+## 📸 Prints do Processo
+
+🔹 Imagem de entrada:
+![Imagem ex 1](./inputs/img5.png)
+![Imagem ex 2](./inputs/img8.jpeg)
+
+🔹 Texto extraído:
+
+![Print da saída](./prints/print1.png)
+![Print da saída](./prints/print2.png)
+
+Este é um exemplo de texto extraído de uma imagem.
 
 ## 🚀 Como Funciona
 
@@ -66,19 +78,6 @@ python main.py
 
 Os textos extraídos aparecerão na pasta output/.
 
-
-## 📸 Prints do Processo
-
-🔹 Imagem de entrada:
-![Imagem ex 1](./input/img5.png)
-![Imagem ex 2](./input/img8.jpeg)
-
-🔹 Texto extraído:
-
-![Print da saída](./prints/print1.png)
-![Print da saída](./prints/print2.png)
-
-Este é um exemplo de texto extraído de uma imagem.
 
 
 ## 📚 Aprendizados e Insights
